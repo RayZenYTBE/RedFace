@@ -2,32 +2,29 @@
 # 💀 RedFace (Discord Music Bot)
 > RedFace is a bot made using discord.js [discordjs.guide](https://discordjs.guide)
 
-## Installation
+## Preparing Everything You Need
 
-1. How to obtain a Discord Bot Token **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
-2. YouTube Data API v3 Key **[Guide](https://developers.google.com/youtube/v3/getting-started)**  
+1. Get your bot token by creating your bot first [here](https://discord.com/developers/applications)
+2. Get the YouTube API key v3 [here](https://console.cloud.google.com/apis/credentials?project=trusty-ether-316813) 
 3. SoundCloud doesn't provide API anymore**
-4. Node.js v12.0.0 or newer
+4. Node.js v12.0.0 or newer. Here, we will use [replit's](https://replit.com) version. 
 
 ---
 
 ## 🔎 Making The Project
 
-After installation finishes you can use `node index.js` to start the bot.
-
-```
-Type (npm i) in console
-```
-
+1. Import this repo to replit by copying the repo's code by clicking on the green button with "Code" text and copy the code written there. Next, go to [here](https://replit.com) and click on '+' button. Click "Import from GitHub" and paste the code. Let it load.
+2. If you were asked about the Language and the Run Button, use Node.js language and `node index.js` run button.
+3. Go to config.js file and edit everything there. You can add the support server link too! **REMEMBER** TOKEN, YOUTUBE API KEY, and PREFIX are required!
 🚨🚨 **Commiting your token to be accessed by others or making it public is strictly prohibited.So, dont share your token in any cost or use .gitignore to hide secrets** 🚨🚨
 
 ```json
 {
-  "TOKEN": "",
-  "YOUTUBE_API_KEY": "",
+  "TOKEN": "", <= REQUIRED
+  "YOUTUBE_API_KEY": "", <= REQUIRED
   "SOUNDCLOUD_CLIENT_ID": "",
   "MAX_PLAYLIST_SIZE": 10,
-  "PREFIX": "/",
+  "PREFIX": "/", <= REQUIRED
   "PRUNING": false,
   "STAY_TIME": 30,
   "LOCALE": "en",
@@ -35,7 +32,7 @@ Type (npm i) in console
   "DEFAULT_VOLUME": 100
 }
 ```
-
+You can also change the language by editing the LOCALE using the data below :
 Currently available locales are:
 
 • English (en)
@@ -47,11 +44,27 @@ Currently available locales are:
 • Simplified Chinese (zh_cn)
 • Traditional Chinese (zh_tw)
 
+5. Next, type :
+```
+npm i
+```
+
+5. After the installation were done, type :
+```
+node index.js
+```
+6. Congrats! Your Music bot is now ready to use! Invite the bot by visiting the bot's discord developer portal site on OAuth2 and URL Generator!
+
+**THANKS FOR USING REDFACE!!!**
+
+
+
+
 ## 📝 Features & Commands
 
 > Note: The default prefix is '/'
 
-* 🎶 Using YouTube Url
+* 🎶 Using YouTube URL
 
 `/play https://www.youtube.com/c/Vevo`
 
