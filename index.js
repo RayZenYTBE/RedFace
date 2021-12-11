@@ -50,7 +50,7 @@ i18n.configure({
  */
 client.on("ready", () => {
   console.log(`${client.user.username} is ready!!`);
-  client.user.setActivity(`${PREFIX}help`, { type: "LISTENING" });
+  client.user.setActivity(`${PREFIX}help | Powered by RedFace`, { type: "LISTENING" });
 });
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
