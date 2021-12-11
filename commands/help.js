@@ -17,7 +17,7 @@ module.exports = {
       .setTitle(i18n.__mf("help.embedTitle", { botname: message.client.user.username }))
       .setThumbnail(message.client.user.displayAvatarURL({ format: "png" }))
       .setDescription(i18n.__("help.embedDescription"))
-      .setColor("RANDOM")
+      .setColor("#FF0000")
       .setFooter(`Requested by ${message.author.username}`);
 
     commands.forEach((cmd) => {
