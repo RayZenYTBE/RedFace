@@ -102,7 +102,7 @@ module.exports = {
       .setTitle(`${playlist.title}`)
       .setDescription(newSongs.map((song, index) => `${index + 1}. ${song.title}`))
       .setURL(playlist.url)
-      .setColor("#F8AA2A")
+      .setColor("#FF0000")
       .setTimestamp();
 
     if (playlistEmbed.description.length >= 2048)
