@@ -1,4 +1,3 @@
-https://cdn.discordapp.com/attachments/905974080975544462/919185486692622396/RedFace.jpg
 
 # 💀 RedFace (Discord Music Bot)
 > RedFace is a bot made using discord.js [discordjs.guide](https://discordjs.guide)
