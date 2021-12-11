@@ -1,7 +1,7 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/eritislami/evobot)
+https://cdn.discordapp.com/attachments/905974080975544462/919185486692622396/RedFace.jpg
 
-# 🎵 ProMusic (Discord Music Bot)
-> ProMusic is a bot made using discord.js [discordjs.guide](https://discordjs.guide)
+# 💀 RedFace (Discord Music Bot)
+> RedFace is a bot made using discord.js [discordjs.guide](https://discordjs.guide)
 
 ## Installation
 
@@ -65,6 +65,10 @@ Currently available locales are:
 `/search Imperial March Trap Remix by Goblins from Mars`
 
 
-Main Credits go to [@eritislami](https://github.com/eritislami) for making evobot so pro..
+Main Credits go to [@eritislami](https://github.com/eritislami) for making Evobot
 Get evobot repo here - 
 https://github.com/eritislami/evobot
+
+Also Credits for [@drstrangegithub](https://github.com/drstrangegithub) for making ProMusic
+Get ProMusic repo here -
+https://github.com/drstrangegithub/ProMusic 
