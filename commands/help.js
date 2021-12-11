@@ -18,7 +18,7 @@ module.exports = {
       .setThumbnail(message.client.user.displayAvatarURL({ format: "png" }))
       .setDescription(i18n.__("help.embedDescription"))
       .setColor("#FF0000")
-      .setFooter(`Requested by ${message.author.username}`);
+      .setFooter(`Requested by ${message.author.username} | Powered by [RedFace](https://github.com/RayZenYTBE/RedFace)`);
 
     commands.forEach((cmd) => {
       helpEmbed.addField(
