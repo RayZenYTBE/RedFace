@@ -23,7 +23,7 @@ module.exports = {
     let resultsEmbed = new MessageEmbed()
       .setTitle(i18n.__("search.resultEmbedTtile"))
       .setDescription(i18n.__mf("search.resultEmbedDesc", { search: search }))
-      .setColor("#F8AA2A");
+      .setColor("#FF0000");
 
     try {
       const results = await youtube.searchVideos(search, 10);
