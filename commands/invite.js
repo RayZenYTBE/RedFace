@@ -18,7 +18,7 @@ module.exports = {
       .setURL(
         `https://discord.com/oauth2/authorize?client_id={client_id}&permissions=${permissions}&scope=bot`
       )
-      .setColor("RANDOM");
+      .setColor("#FF0000");
     return message.channel.send(invite1);
   }
 };
