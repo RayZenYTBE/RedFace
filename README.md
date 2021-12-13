@@ -2,6 +2,9 @@
 # 💀 RedFace (Discord Music Bot)
 > RedFace is a bot made using discord.js [discordjs.guide](https://discordjs.guide)
 
+# Invite The Original One!
+Too lazy to create one? Invite RedFace [here](https://discord.com/oauth2/authorize?client_id=862344172945408030&permissions=70282305&scope=bot)
+
 ## Preparing Everything You Need
 
 1. Get your bot token by creating your bot first [here](https://discord.com/developers/applications)
