@@ -57,7 +57,9 @@ node index.js
 
 **THANKS FOR USING REDFACE!!!**
 
-
+# Links
+- [Our Website](https://sites.google.com/view/atmostfeardevelopersite)
+- [Host on Replit](https://replit.com/github/RayZenYTBE/RedFace)
 
 
 ## 📝 Features & Commands
